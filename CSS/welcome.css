@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.main{
+    display: flex;
+}
+.heading,.div1,.div2,.footer{
+    border: 1px solid black;
+}
+.div1
+{
+    width: 30%;
+    min-height: 70vh;
+}
+.div2{
+    width: 70%;
+}
+.footer{
+display: flex;
+justify-content: center;
+padding: 30px;
+}
